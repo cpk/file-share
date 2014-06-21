@@ -1,0 +1,216 @@
+@charset "utf-8";
+/* CSS Document */
+.clear {
+	clear: both;
+}
+a:link, a:visited {
+color:#27b;
+text-decoration:none;
+}
+a:hover {
+text-decoration:underline;
+}
+body {
+	background-color: #FFF;
+	background-image: url(../../img/signup_bg.jpg);
+	background-attachment: fixed;
+	background-position: center 160px;
+}
+#admin_top {
+	background-image: url(../../img/bg_banner_admin.jpg);
+	background-repeat: repeat-x;
+	vertical-align: middle;
+	height: 160px;
+	width: 102%;
+	margin-top: -10px;
+	margin-left: -1%;
+	background-position: bottom;
+	z-index: 1000000;
+	position: fixed;
+}
+#admin_top #admin_top_logo {
+	height: 110px;
+	width: 990px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#admin_top #admin_top_menu {
+	height: 41px;
+	width: 990px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 9px;
+}
+#admin_cen {
+	background-attachment: fixed;
+	background-repeat: repeat;
+	background-position: center top;
+	width: 990px;
+	padding-top:160px;
+	padding-bottom:110px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#admin_bot {
+	background-image: url(../../img/bg_about_admin.jpg);
+	background-repeat: repeat-x;
+	text-align: center;
+	vertical-align: middle;
+	height: 100px;
+	width: 102%;
+	margin-left: -1%;	
+	z-index: 1000000;
+	position: fixed;	
+	bottom: 0px;
+}
+.name {
+	float: left;
+	width: 167px;
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-left-style: solid;
+	border-top-color: #CCC;
+	border-left-color: #CCC;
+	padding-left: 2px;
+}
+.keyShare {
+	float: left;
+	width: 127px;
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-left-style: solid;
+	border-top-color: #CCC;
+	border-left-color: #CCC;
+	padding-left: 2px;
+}
+.flname {
+	float: left;
+	width: 157px;
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-left-style: solid;
+	border-top-color: #CCC;
+	border-left-color: #CCC;
+	padding-left: 2px;
+}
+.user {
+	float: left;
+	width: 250px;
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-left-style: solid;
+	border-top-color: #CCC;
+	border-left-color: #CCC;
+	padding-left: 2px;
+}
+.path {
+	float: left;
+	width: 247px;
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-left-style: solid;
+	border-top-color: #CCC;
+	border-left-color: #CCC;
+	padding-left: 2px;
+}
+.typelog {
+	float: left;
+	width: 97px;
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-left-style: solid;
+	border-top-color: #CCC;
+	border-left-color: #CCC;
+	padding-left: 2px;
+}
+.level {
+	float: left;
+	width: 47px;
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-left-style: solid;
+	border-top-color: #CCC;
+	border-left-color: #CCC;
+	padding-left: 2px;
+}
+.share {
+	float: left;
+	width: 47px;
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-left-style: solid;
+	border-top-color: #CCC;
+	border-left-color: #CCC;
+	padding-left: 2px;
+}
+.edit {
+	float: left;
+	width: 50px;
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-left-style: solid;
+	border-top-color: #CCC;
+	border-left-color: #CCC;
+	padding-left: 2px;
+}
+.delete {
+	float: left;
+	width: 60px;
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-right-width: 1px;
+	border-top-style: solid;
+	border-left-style: solid;
+	border-right-style: solid;
+	border-top-color: #CCC;
+	border-left-color: #CCC;
+	border-right-color: #CCC;
+	padding-left: 2px;
+}
+.sort {
+	float: left;
+	width: 113px;
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-right-width: 1px;
+	border-top-style: solid;
+	border-left-style: solid;
+	border-right-style: solid;
+	border-top-color: #CCC;
+	border-left-color: #CCC;
+	border-right-color: #CCC;
+	padding-left: 2px;
+}
+.page {
+	width: 988px;
+	border: 1px;
+	border: solid;
+	border: 1px solid #CCC;
+	text-align: center;
+}
+#form {
+	width: 990px;
+}
+.label {
+	float: left;
+	width: 400px;
+	text-align: right;
+}
+.text {
+	text-align: left;
+	float: left;
+	width: 590px;
+}
+.button {
+	text-align: center;
+	width: 990px;
+}

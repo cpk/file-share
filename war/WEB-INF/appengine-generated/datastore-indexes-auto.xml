@@ -1,0 +1,64 @@
+<!-- Indices written at Thu, 23 May 2013 10:24:57 ICT -->
+
+<datastore-indexes>
+
+    <!-- Used 2 times in query history -->
+    <datastore-index kind="folder" ancestor="true" source="auto">
+        <property name="iduser" direction="asc"/>
+        <property name="name" direction="asc"/>
+    </datastore-index>
+
+    <!-- Used 4 times in query history -->
+    <datastore-index kind="folder" ancestor="true" source="auto">
+        <property name="iduser" direction="asc"/>
+        <property name="path" direction="asc"/>
+        <property name="typelog" direction="asc"/>
+        <property name="name" direction="asc"/>
+    </datastore-index>
+
+    <!-- Used 4 times in query history -->
+    <datastore-index kind="file" ancestor="true" source="auto">
+        <property name="iduser" direction="asc"/>
+        <property name="path" direction="asc"/>
+        <property name="typelog" direction="asc"/>
+        <property name="name" direction="asc"/>
+    </datastore-index>
+
+    <!-- Used 8 times in query history -->
+    <datastore-index kind="folder" ancestor="true" source="auto">
+        <property name="iduser" direction="asc"/>
+        <property name="path" direction="asc"/>
+        <property name="name" direction="asc"/>
+    </datastore-index>
+
+    <!-- Used 8 times in query history -->
+    <datastore-index kind="file" ancestor="true" source="auto">
+        <property name="iduser" direction="asc"/>
+        <property name="path" direction="asc"/>
+        <property name="name" direction="asc"/>
+    </datastore-index>
+
+    <!-- Used 2 times in query history -->
+    <datastore-index kind="file" ancestor="true" source="auto">
+        <property name="iduser" direction="asc"/>
+        <property name="key" direction="asc"/>
+        <property name="path" direction="asc"/>
+        <property name="typelog" direction="asc"/>
+        <property name="name" direction="asc"/>
+    </datastore-index>
+
+    <!-- Used 1 time in query history -->
+    <datastore-index kind="folder" ancestor="true" source="auto">
+        <property name="iduser" direction="asc"/>
+        <property name="typelog" direction="asc"/>
+        <property name="level" direction="asc"/>
+    </datastore-index>
+
+    <!-- Used 1 time in query history -->
+    <datastore-index kind="file" ancestor="true" source="auto">
+        <property name="iduser" direction="asc"/>
+        <property name="typelog" direction="asc"/>
+        <property name="level" direction="asc"/>
+    </datastore-index>
+
+</datastore-indexes>
